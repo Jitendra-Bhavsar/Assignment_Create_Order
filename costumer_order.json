@@ -1,0 +1,33 @@
+
+[{"order_id": "c1",
+  "item_name": ["Rice","Apple"],
+  "item_quantity":[1,5],
+  "date": "1-01-18"
+  },
+  {"order_id": "c2",
+    "item_name": ["Rice"],
+    "item_quantity":[15],
+    "date": "12-02-23"
+  },
+  {"order_id": "c3",
+    "item_name": ["Dove"],
+    "item_quantity":[2],
+    "date": "23-02-22"
+  },
+  {"order_id": "c4",
+    "item_name": ["Apple"],
+    "item_quantity":[10],
+    "date": "05-02-22"
+  },
+  {"order_id": "c5",
+    "item_name": ["Apple"],
+    "item_quantity":[5],
+    "date": "20-02-23"
+  },
+  {"order_id": "c6",
+    "item_name": ["Rice"],
+    "item_quantity":[15],
+    "date": "21-01-23"
+
+  }
+]

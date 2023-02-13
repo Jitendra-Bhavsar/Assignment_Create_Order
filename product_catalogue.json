@@ -1,0 +1,38 @@
+[
+  {
+    "productId": "1",
+    "productName": "Rice",
+    "availableQuantity": 20,
+    "price": 100
+  },
+  {
+    "productId": "2",
+    "productName": "Apple",
+    "availableQuantity": 10,
+    "price": 25
+  },
+  {
+    "productId": "3",
+    "productName": "Orange",
+    "availableQuantity": 10,
+    "price": 15
+  },
+  {
+    "productId": "4",
+    "productName": "Coconut",
+    "availableQuantity": 10,
+    "price": 25
+  },
+  {
+    "productId": "5",
+    "productName": "ParleG",
+    "availableQuantity": 5,
+    "price": 5
+  },
+  {
+    "productId": "6",
+    "productName": "soap",
+    "availableQuantity": 15,
+    "price": 40
+  }
+]
