@@ -30,5 +30,5 @@ def update_function():
 
     return pc4
 
-
+print("Update Product Catalogue: ",update_function())
 
