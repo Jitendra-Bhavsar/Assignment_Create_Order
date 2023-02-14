@@ -1,5 +1,5 @@
 
-## Q.1) What is the problem statement?
+## What is the problem statement?
 Ans:
 The Popular company has decided to launched a new website and mobile application for online groceries shopping. 
 All things in technology implementation are done except order service where we need your help. In order service we need an API which can accept orders and save them to database. Choose your favourite database, design database schema (refer any available online groceries website). 
