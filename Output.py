@@ -14,7 +14,7 @@ print("Final_Placed_Order_List: ",pd.DataFrame(obj.my_output()))
 # print("Update Product_catalogue: ",pd.DataFrame(update_function()))
 
 """
-1) When you run this output module You get list of
+1) When you run this output module You will get list of
 placed order(costumer_order, costumer_detail), update product catalogue in mysql database.
 2) you can see the output of code in run window also using uncomment the print statement given above.
 3) All given validation is completed like as below

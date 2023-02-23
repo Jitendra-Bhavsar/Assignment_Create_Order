@@ -1,6 +1,5 @@
 from price_validation_3 import final_order_list
 from Input import product_catalogue
-import json
 
 final_list = final_order_list()
 product_catalogue3 = product_catalogue()
@@ -30,5 +29,10 @@ def update_function():
 
     return pc4
 
+<<<<<<< HEAD
 print("Update Product Catalogue: ",update_function())
+=======
+print("Update_Product_Catalogue: ",update_function())
+
+>>>>>>> b8d10fb (first Assignment)
 

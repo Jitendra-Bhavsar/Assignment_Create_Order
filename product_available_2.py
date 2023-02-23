@@ -1,9 +1,9 @@
 from Input import product_catalogue
 import holyday_validation_1
 
-data_order = holyday_validation_1.holyday_checking_order()
+data_order = holyday_validation_1.holiday_checking_order()
 
-# First We have stored the total available products and their total quantity.
+'''First We have stored the total available products and their total quantity into present_item_list and item_availability.'''
 present_item_list = []
 item_availability = {}
 
@@ -13,15 +13,13 @@ for i in object_pc:
     temp = {i["productName"]: i["availableQuantity"]}
     item_availability.update(temp)
 
-# ae = 0  # for store boolean value.
-# dict_of_stock = []
-
-# This method return the order those are satisfied the available product in product_catalogue and their quantity.
-# We should not place those order which demand is more than available quantity.
-# we should not place unavailable products order.
-def create_order():
+'''ae = 0 >>>>> store boolean value.
+ product_availability method return product_availability_list those are satisfied the available product in product_catalogue and their quantity.
+ We should not place those order which demand is more than available quantity (item_availability).
+ we should not place those order which is not available in item_list(product_catalogue).'''
+def product_availability():
     temp_list = []
-    final_order = []
+    product_availability_list = []
     for ii in range(len(data_order)):
         ab = ((data_order[ii])["item_name"])
         ac = ((data_order[ii])["item_quantity"])
@@ -58,7 +56,7 @@ def create_order():
                         item_availability.update(d4)
                         count += 1
                         if count == len(ab):
-                            final_order.append(data_order[ii])
+                            product_availability_list.append(data_order[ii])
                             break
             else:
                 holyday_validation_1.cancel_order.append(data_order[ii])
@@ -70,20 +68,19 @@ def create_order():
                     ae = (object_pc[i])["productName"] == ab[0]
                     # print(ab[0])
                     if ae == True:
-                        # af = (object_pc[ii])
                         count = 0
                         if ac[0] <= item_availability[ab[0]]:
                             temp_dict = {ab[0]: item_availability[ab[0]] - ac[0]}
                             item_availability.update(temp_dict)
 
-                            final_order.append(data_order[ii])
+                            product_availability_list.append(data_order[ii])
                             break
 
             else:
                 holyday_validation_1.cancel_order.append(data_order[ii])
 
 
-    return final_order
-# print(create_order())
+    return product_availability_list
+# print(product_availability())
 
 

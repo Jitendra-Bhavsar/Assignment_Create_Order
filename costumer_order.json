@@ -1,7 +1,7 @@
 
 [{"order_id": "c1",
   "item_name": ["Rice","Apple"],
-  "item_quantity":[1,5],
+  "item_quantity":[4,5],
   "date": "1-01-18"
   },
   {"order_id": "c2",
@@ -21,7 +21,7 @@
   },
   {"order_id": "c5",
     "item_name": ["Apple"],
-    "item_quantity":[5],
+    "item_quantity":[4],
     "date": "20-02-23"
   },
   {"order_id": "c6",
