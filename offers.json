@@ -1,0 +1,14 @@
+[
+  {
+    "offer1": "FIVE",
+    "_comment": "minimise the total order price by 5% if total_order_price is >2000. "
+  },
+  {
+    "offer3": "flat30%Rice",
+    "_comment": "minimise the price of Rice by 30% if order_quantity of Rice > 3kg ."
+  },
+  {
+    "offer4": "flat20%Coconut",
+    "_comment": "minimise the price of Cocounut by 20% if order_quantiy of Coconut >2 ."
+  }
+]
