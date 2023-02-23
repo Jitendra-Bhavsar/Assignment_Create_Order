@@ -1,7 +1,7 @@
 from Input import product_catalogue
 import holiday_validation_1
 
-data_order = holyday_validation_1.holiday_checking_order()
+data_order = holiday_validation_1.holiday_checking_order()
 
 '''First We have stored the total available products and their total quantity into present_item_list and item_availability.'''
 present_item_list = []
@@ -59,7 +59,7 @@ def product_availability():
                             product_availability_list.append(data_order[ii])
                             break
             else:
-                holyday_validation_1.cancel_order.append(data_order[ii])
+                holiday_validation_1.cancel_order.append(data_order[ii])
 
         elif len(ab) == 1:
             if ab[0] in present_item_list:
@@ -77,7 +77,7 @@ def product_availability():
                             break
 
             else:
-                holyday_validation_1.cancel_order.append(data_order[ii])
+                holiday_validation_1.cancel_order.append(data_order[ii])
 
 
     return product_availability_list
