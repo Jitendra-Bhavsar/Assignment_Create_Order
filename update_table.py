@@ -29,10 +29,4 @@ def update_function():
 
     return pc4
 
-<<<<<<< HEAD
-print("Update Product Catalogue: ",update_function())
-=======
-print("Update_Product_Catalogue: ",update_function())
-
->>>>>>> b8d10fb (first Assignment)
 
