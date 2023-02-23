@@ -1,6 +1,6 @@
 from Input import product_catalogue
 import product_available_2
-import holiday_validation_1
+import holyday_validation_1
 from Input import costumer_details
 
 '''price_validation method return the price_validation_list output in which order is fulfill with
@@ -31,12 +31,12 @@ def price_validation():
 
             price_validation_list.append(price_validation_list2[i])
         elif sum1 <= 99:
-            holiday_validation_1.cancel_order.append(price_validation_list2[i])
+            holyday_validation_1.cancel_order.append(price_validation_list2[i])
             order_id1 = (price_validation_list2[i])["order_id"]
             print(f"Your Order {order_id1} is not placed due to small total bill price ")
         else:
             order_id1 = (price_validation_list2[i])["order_id"]
-            holiday_validation_1.cancel_order.append(price_validation_list2[i])
+            holyday_validation_1.cancel_order.append(price_validation_list2[i])
             print(f"Your Order {order_id1} is not placed due to the larger total bill price. ")
 
     return price_validation_list
